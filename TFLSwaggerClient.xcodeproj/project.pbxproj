@@ -7,6 +7,137 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39B373CE1F82268B00188DB7 /* AccidentStatsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB771E2193E900E8270D /* AccidentStatsAPI.swift */; };
+		39B373CF1F82268B00188DB7 /* AirQualityAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB781E2193E900E8270D /* AirQualityAPI.swift */; };
+		39B373D01F82268B00188DB7 /* BikePointAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB791E2193E900E8270D /* BikePointAPI.swift */; };
+		39B373D11F82268B00188DB7 /* CabwiseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB7A1E2193E900E8270D /* CabwiseAPI.swift */; };
+		39B373D21F82268B00188DB7 /* CycleSuperhighwayAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB7B1E2193E900E8270D /* CycleSuperhighwayAPI.swift */; };
+		39B373D31F82268B00188DB7 /* JourneyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB7C1E2193E900E8270D /* JourneyAPI.swift */; };
+		39B373D41F82268B00188DB7 /* LineAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB7D1E2193E900E8270D /* LineAPI.swift */; };
+		39B373D51F82268B00188DB7 /* ModeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB7E1E2193E900E8270D /* ModeAPI.swift */; };
+		39B373D61F82268B00188DB7 /* NotificationAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB7F1E2193E900E8270D /* NotificationAPI.swift */; };
+		39B373D71F82268B00188DB7 /* OccupancyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB801E2193E900E8270D /* OccupancyAPI.swift */; };
+		39B373D81F82268B00188DB7 /* PlaceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB811E2193E900E8270D /* PlaceAPI.swift */; };
+		39B373D91F82268B00188DB7 /* RoadAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB821E2193E900E8270D /* RoadAPI.swift */; };
+		39B373DA1F82268B00188DB7 /* SearchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB831E2193E900E8270D /* SearchAPI.swift */; };
+		39B373DB1F82268B00188DB7 /* StopPointAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB841E2193E900E8270D /* StopPointAPI.swift */; };
+		39B373DC1F82268B00188DB7 /* TravelTimeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB851E2193E900E8270D /* TravelTimeAPI.swift */; };
+		39B373DD1F82268B00188DB7 /* VehicleAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB861E2193E900E8270D /* VehicleAPI.swift */; };
+		39B373DE1F82268B00188DB7 /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB871E2193E900E8270D /* APIs.swift */; };
+		39B373DF1F82268B00188DB7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB881E2193E900E8270D /* Extensions.swift */; };
+		39B373E01F82268F00188DB7 /* AlamofireImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB741E2193E900E8270D /* AlamofireImplementations.swift */; };
+		39B373E11F82268F00188DB7 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB751E2193E900E8270D /* APIHelper.swift */; };
+		39B373E21F82269600188DB7 /* AccidentDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB8A1E2193E900E8270D /* AccidentDetail.swift */; };
+		39B373E31F82269600188DB7 /* AccidentStatsOrderedSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB8B1E2193E900E8270D /* AccidentStatsOrderedSummary.swift */; };
+		39B373E41F82269600188DB7 /* ActiveServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB8C1E2193E900E8270D /* ActiveServiceType.swift */; };
+		39B373E51F82269600188DB7 /* AdditionalProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB8D1E2193E900E8270D /* AdditionalProperties.swift */; };
+		39B373E61F82269600188DB7 /* ApiVersionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB8E1E2193E900E8270D /* ApiVersionInfo.swift */; };
+		39B373E71F82269600188DB7 /* Bay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB8F1E2193E900E8270D /* Bay.swift */; };
+		39B373E81F82269600188DB7 /* CacheSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB901E2193E900E8270D /* CacheSettings.swift */; };
+		39B373E91F82269600188DB7 /* CarParkOccupancy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB911E2193E900E8270D /* CarParkOccupancy.swift */; };
+		39B373EA1F82269600188DB7 /* Casualty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB921E2193E900E8270D /* Casualty.swift */; };
+		39B373EB1F82269600188DB7 /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB931E2193E900E8270D /* Coordinate.swift */; };
+		39B373EC1F82269600188DB7 /* CycleSuperhighway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB941E2193EA00E8270D /* CycleSuperhighway.swift */; };
+		39B373ED1F82269600188DB7 /* DateRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB951E2193EA00E8270D /* DateRange.swift */; };
+		39B373EE1F82269600188DB7 /* DateRangeNullable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB961E2193EA00E8270D /* DateRangeNullable.swift */; };
+		39B373EF1F82269600188DB7 /* DbGeography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB971E2193EA00E8270D /* DbGeography.swift */; };
+		39B373F01F82269600188DB7 /* DbGeographyWellKnownValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB981E2193EA00E8270D /* DbGeographyWellKnownValue.swift */; };
+		39B373F11F82269600188DB7 /* Disambiguation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB991E2193EA00E8270D /* Disambiguation.swift */; };
+		39B373F21F82269600188DB7 /* DisambiguationOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB9A1E2193EA00E8270D /* DisambiguationOption.swift */; };
+		39B373F31F82269600188DB7 /* DisruptedPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB9B1E2193EA00E8270D /* DisruptedPoint.swift */; };
+		39B373F41F82269600188DB7 /* Disruption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB9C1E2193EA00E8270D /* Disruption.swift */; };
+		39B373F51F82269600188DB7 /* Fare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB9D1E2193EA00E8270D /* Fare.swift */; };
+		39B373F61F82269600188DB7 /* FareBounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB9E1E2193EA00E8270D /* FareBounds.swift */; };
+		39B373F71F82269600188DB7 /* FareDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB9F1E2193EA00E8270D /* FareDetails.swift */; };
+		39B373F81F82269600188DB7 /* FaresMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABA01E2193EA00E8270D /* FaresMode.swift */; };
+		39B373F91F82269600188DB7 /* FaresPeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABA11E2193EA00E8270D /* FaresPeriod.swift */; };
+		39B373FA1F82269600188DB7 /* FaresSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABA21E2193EA00E8270D /* FaresSection.swift */; };
+		39B373FB1F82269600188DB7 /* GeoCodeSearchMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABA31E2193EA00E8270D /* GeoCodeSearchMatch.swift */; };
+		39B373FC1F82269600188DB7 /* GeoPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABA41E2193EA00E8270D /* GeoPoint.swift */; };
+		39B373FD1F82269600188DB7 /* GeoPointBBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABA51E2193EA00E8270D /* GeoPointBBox.swift */; };
+		39B373FE1F82269600188DB7 /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABA61E2193EA00E8270D /* Identifier.swift */; };
+		39B373FF1F82269600188DB7 /* Instruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABA71E2193EA00E8270D /* Instruction.swift */; };
+		39B374001F82269600188DB7 /* InstructionStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABA81E2193EA00E8270D /* InstructionStep.swift */; };
+		39B374011F82269600188DB7 /* Interval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABA91E2193EA00E8270D /* Interval.swift */; };
+		39B374021F82269600188DB7 /* ItineraryResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABAA1E2193EA00E8270D /* ItineraryResult.swift */; };
+		39B374031F82269600188DB7 /* Journey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABAB1E2193EA00E8270D /* Journey.swift */; };
+		39B374041F82269600188DB7 /* JourneyPlannerCycleHireDockingStationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABAC1E2193EA00E8270D /* JourneyPlannerCycleHireDockingStationData.swift */; };
+		39B374051F82269600188DB7 /* JourneyVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABAD1E2193EA00E8270D /* JourneyVector.swift */; };
+		39B374061F82269600188DB7 /* JpElevation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABAE1E2193EA00E8270D /* JpElevation.swift */; };
+		39B374071F82269600188DB7 /* KnownJourney.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABAF1E2193EA00E8270D /* KnownJourney.swift */; };
+		39B374081F82269700188DB7 /* Leg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABB01E2193EA00E8270D /* Leg.swift */; };
+		39B374091F82269700188DB7 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABB11E2193EA00E8270D /* Line.swift */; };
+		39B3740A1F82269700188DB7 /* LineGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABB21E2193EA00E8270D /* LineGroup.swift */; };
+		39B3740B1F82269700188DB7 /* LineModeGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABB31E2193EA00E8270D /* LineModeGroup.swift */; };
+		39B3740C1F82269700188DB7 /* LineRouteSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABB41E2193EA00E8270D /* LineRouteSection.swift */; };
+		39B3740D1F82269700188DB7 /* LineServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABB51E2193EA00E8270D /* LineServiceType.swift */; };
+		39B3740E1F82269700188DB7 /* LineServiceTypeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABB61E2193EA00E8270D /* LineServiceTypeInfo.swift */; };
+		39B3740F1F82269700188DB7 /* LineSpecificServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABB71E2193EA00E8270D /* LineSpecificServiceType.swift */; };
+		39B374101F82269700188DB7 /* LineStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABB81E2193EA00E8270D /* LineStatus.swift */; };
+		39B374111F82269700188DB7 /* MatchedRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABB91E2193EA00E8270D /* MatchedRoute.swift */; };
+		39B374121F82269700188DB7 /* MatchedRouteSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABBA1E2193EA00E8270D /* MatchedRouteSections.swift */; };
+		39B374131F82269700188DB7 /* MatchedStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABBB1E2193EA00E8270D /* MatchedStop.swift */; };
+		39B374141F82269700188DB7 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABBC1E2193EA00E8270D /* Message.swift */; };
+		39B374151F82269700188DB7 /* Mode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABBD1E2193EA00E8270D /* Mode.swift */; };
+		39B374161F82269700188DB7 /* NotificationEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABBE1E2193EA00E8270D /* NotificationEvent.swift */; };
+		39B374171F82269700188DB7 /* NotificationSubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABBF1E2193EA00E8270D /* NotificationSubscription.swift */; };
+		39B374181F82269700188DB7 /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABC01E2193EA00E8270D /* Object.swift */; };
+		39B374191F82269700188DB7 /* Obstacle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABC11E2193EA00E8270D /* Obstacle.swift */; };
+		39B3741A1F82269700188DB7 /* OrderedRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABC21E2193EA00E8270D /* OrderedRoute.swift */; };
+		39B3741B1F82269700188DB7 /* PassengerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABC31E2193EA00E8270D /* PassengerType.swift */; };
+		39B3741C1F82269700188DB7 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABC41E2193EA00E8270D /* Path.swift */; };
+		39B3741D1F82269700188DB7 /* PathAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABC51E2193EA00E8270D /* PathAttribute.swift */; };
+		39B3741E1F82269700188DB7 /* Period.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABC61E2193EA00E8270D /* Period.swift */; };
+		39B3741F1F82269700188DB7 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABC71E2193EA00E8270D /* Place.swift */; };
+		39B374201F82269700188DB7 /* PlaceCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABC81E2193EA00E8270D /* PlaceCategory.swift */; };
+		39B374211F82269700188DB7 /* PlacePolygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABC91E2193EA00E8270D /* PlacePolygon.swift */; };
+		39B374221F82269700188DB7 /* PlannedWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABCA1E2193EA00E8270D /* PlannedWork.swift */; };
+		39B374231F82269700188DB7 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABCB1E2193EA00E8270D /* Point.swift */; };
+		39B374241F82269700188DB7 /* PostcodeInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABCC1E2193EA00E8270D /* PostcodeInput.swift */; };
+		39B374251F82269700188DB7 /* Prediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABCD1E2193EA00E8270D /* Prediction.swift */; };
+		39B374261F82269700188DB7 /* PredictionTiming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABCE1E2193EA00E8270D /* PredictionTiming.swift */; };
+		39B374271F82269700188DB7 /* Recommendation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABCF1E2193EA00E8270D /* Recommendation.swift */; };
+		39B374281F82269700188DB7 /* RecommendationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABD01E2193EA00E8270D /* RecommendationResponse.swift */; };
+		39B374291F82269700188DB7 /* Redirect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABD11E2193EA00E8270D /* Redirect.swift */; };
+		39B3742A1F82269700188DB7 /* RoadCorridor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABD21E2193EA00E8270D /* RoadCorridor.swift */; };
+		39B3742B1F82269700188DB7 /* RoadDisruption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABD31E2193EA00E8270D /* RoadDisruption.swift */; };
+		39B3742C1F82269700188DB7 /* RoadDisruptionImpactArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABD41E2193EA00E8270D /* RoadDisruptionImpactArea.swift */; };
+		39B3742D1F82269700188DB7 /* RoadDisruptionLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABD51E2193EA00E8270D /* RoadDisruptionLine.swift */; };
+		39B3742E1F82269700188DB7 /* RoadProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABD61E2193EA00E8270D /* RoadProject.swift */; };
+		39B3742F1F82269700188DB7 /* RouteOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABD71E2193EA00E8270D /* RouteOption.swift */; };
+		39B374301F82269700188DB7 /* RouteSearchMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABD81E2193EA00E8270D /* RouteSearchMatch.swift */; };
+		39B374311F82269700188DB7 /* RouteSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABD91E2193EA00E8270D /* RouteSearchResponse.swift */; };
+		39B374321F82269700188DB7 /* RouteSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABDA1E2193EA00E8270D /* RouteSection.swift */; };
+		39B374331F82269700188DB7 /* RouteSectionNaptanEntrySequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABDB1E2193EA00E8270D /* RouteSectionNaptanEntrySequence.swift */; };
+		39B374341F82269700188DB7 /* RouteSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABDC1E2193EA00E8270D /* RouteSequence.swift */; };
+		39B374351F82269700188DB7 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABDD1E2193EA00E8270D /* Schedule.swift */; };
+		39B374361F82269700188DB7 /* SearchCriteria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABDE1E2193EA00E8270D /* SearchCriteria.swift */; };
+		39B374371F82269700188DB7 /* SearchMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABDF1E2193EA00E8270D /* SearchMatch.swift */; };
+		39B374381F82269700188DB7 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABE01E2193EA00E8270D /* SearchResponse.swift */; };
+		39B374391F82269700188DB7 /* ServiceFrequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABE11E2193EA00E8270D /* ServiceFrequency.swift */; };
+		39B3743A1F82269700188DB7 /* StationInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABE21E2193EA00E8270D /* StationInterval.swift */; };
+		39B3743B1F82269700188DB7 /* StatusSeverity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABE31E2193EA00E8270D /* StatusSeverity.swift */; };
+		39B3743C1F82269700188DB7 /* StopPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABE41E2193EA00E8270D /* StopPoint.swift */; };
+		39B3743D1F82269700188DB7 /* StopPointCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABE51E2193EA00E8270D /* StopPointCategory.swift */; };
+		39B3743E1F82269700188DB7 /* StopPointRouteSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABE61E2193EA00E8270D /* StopPointRouteSection.swift */; };
+		39B3743F1F82269700188DB7 /* StopPointSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABE71E2193EA00E8270D /* StopPointSequence.swift */; };
+		39B374401F82269700188DB7 /* StopPointsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABE81E2193EA00E8270D /* StopPointsResponse.swift */; };
+		39B374411F82269700188DB7 /* Street.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABE91E2193EA00E8270D /* Street.swift */; };
+		39B374421F82269700188DB7 /* StreetSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABEA1E2193EA00E8270D /* StreetSegment.swift */; };
+		39B374431F82269700188DB7 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABEB1E2193EA00E8270D /* Ticket.swift */; };
+		39B374441F82269700188DB7 /* TicketTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABEC1E2193EA00E8270D /* TicketTime.swift */; };
+		39B374451F82269700188DB7 /* TicketType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABED1E2193EA00E8270D /* TicketType.swift */; };
+		39B374461F82269700188DB7 /* TimeAdjustment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABEE1E2193EA00E8270D /* TimeAdjustment.swift */; };
+		39B374471F82269700188DB7 /* TimeAdjustments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABEF1E2193EA00E8270D /* TimeAdjustments.swift */; };
+		39B374481F82269700188DB7 /* Timetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABF01E2193EA00E8270D /* Timetable.swift */; };
+		39B374491F82269700188DB7 /* TimetableResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABF11E2193EA00E8270D /* TimetableResponse.swift */; };
+		39B3744A1F82269700188DB7 /* TimetableRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABF21E2193EA00E8270D /* TimetableRoute.swift */; };
+		39B3744B1F82269700188DB7 /* TwentyFourHourClockTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABF31E2193EA00E8270D /* TwentyFourHourClockTime.swift */; };
+		39B3744C1F82269700188DB7 /* ValidityPeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABF41E2193EA00E8270D /* ValidityPeriod.swift */; };
+		39B3744D1F82269700188DB7 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABF51E2193EA00E8270D /* Vehicle.swift */; };
+		39B3744E1F82269A00188DB7 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610ABF61E2193EA00E8270D /* Models.swift */; };
+		39B374511F82281B00188DB7 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39B374501F82280E00188DB7 /* Alamofire.framework */; };
+		39C874131F7AD71C005966F1 /* TFLSwaggerClientTV.h in Headers */ = {isa = PBXBuildFile; fileRef = 39C874111F7AD71C005966F1 /* TFLSwaggerClientTV.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5610AA6A1E218C9900E8270D /* TFLSwaggerClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 5610AA681E218C9900E8270D /* TFLSwaggerClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5610ABF71E2193EA00E8270D /* AlamofireImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB741E2193E900E8270D /* AlamofireImplementations.swift */; };
 		5610ABF81E2193EA00E8270D /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610AB751E2193E900E8270D /* APIHelper.swift */; };
@@ -141,6 +272,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39B374501F82280E00188DB7 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/tvOS/Alamofire.framework; sourceTree = "<group>"; };
+		39C8740F1F7AD71C005966F1 /* TFLSwaggerClientTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TFLSwaggerClientTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39C874111F7AD71C005966F1 /* TFLSwaggerClientTV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFLSwaggerClientTV.h; sourceTree = "<group>"; };
+		39C874121F7AD71C005966F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5610AA651E218C9900E8270D /* TFLSwaggerClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TFLSwaggerClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5610AA681E218C9900E8270D /* TFLSwaggerClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFLSwaggerClient.h; sourceTree = "<group>"; };
 		5610AA691E218C9900E8270D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -277,6 +412,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		39C8740B1F7AD71C005966F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39B374511F82281B00188DB7 /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5610AA611E218C9900E8270D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -288,11 +431,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39C874101F7AD71C005966F1 /* TFLSwaggerClientTV */ = {
+			isa = PBXGroup;
+			children = (
+				39C874111F7AD71C005966F1 /* TFLSwaggerClientTV.h */,
+				39C874121F7AD71C005966F1 /* Info.plist */,
+			);
+			path = TFLSwaggerClientTV;
+			sourceTree = "<group>";
+		};
 		5610AA5B1E218C9900E8270D = {
 			isa = PBXGroup;
 			children = (
 				5610AC7A1E219A8900E8270D /* Alamofire.framework */,
+				39B374501F82280E00188DB7 /* Alamofire.framework */,
 				5610AA671E218C9900E8270D /* TFLSwaggerClient */,
+				39C874101F7AD71C005966F1 /* TFLSwaggerClientTV */,
 				5610AA661E218C9900E8270D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -301,6 +455,7 @@
 			isa = PBXGroup;
 			children = (
 				5610AA651E218C9900E8270D /* TFLSwaggerClient.framework */,
+				39C8740F1F7AD71C005966F1 /* TFLSwaggerClientTV.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -462,6 +617,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		39C8740C1F7AD71C005966F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C874131F7AD71C005966F1 /* TFLSwaggerClientTV.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5610AA621E218C9900E8270D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -473,6 +636,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		39C8740E1F7AD71C005966F1 /* TFLSwaggerClientTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39C874161F7AD71C005966F1 /* Build configuration list for PBXNativeTarget "TFLSwaggerClientTV" */;
+			buildPhases = (
+				39C8740A1F7AD71C005966F1 /* Sources */,
+				39C8740B1F7AD71C005966F1 /* Frameworks */,
+				39C8740C1F7AD71C005966F1 /* Headers */,
+				39C8740D1F7AD71C005966F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TFLSwaggerClientTV;
+			productName = TFLSwaggerClientTV;
+			productReference = 39C8740F1F7AD71C005966F1 /* TFLSwaggerClientTV.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		5610AA641E218C9900E8270D /* TFLSwaggerClient */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5610AA6D1E218C9900E8270D /* Build configuration list for PBXNativeTarget "TFLSwaggerClient" */;
@@ -497,9 +678,14 @@
 		5610AA5C1E218C9900E8270D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = Charles;
 				TargetAttributes = {
+					39C8740E1F7AD71C005966F1 = {
+						CreatedOnToolsVersion = 9.0;
+						DevelopmentTeam = UY3B6JCV8C;
+						ProvisioningStyle = Automatic;
+					};
 					5610AA641E218C9900E8270D = {
 						CreatedOnToolsVersion = 8.2.1;
 						LastSwiftMigration = 0820;
@@ -520,11 +706,19 @@
 			projectRoot = "";
 			targets = (
 				5610AA641E218C9900E8270D /* TFLSwaggerClient */,
+				39C8740E1F7AD71C005966F1 /* TFLSwaggerClientTV */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		39C8740D1F7AD71C005966F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5610AA631E218C9900E8270D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -535,6 +729,142 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		39C8740A1F7AD71C005966F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39B374271F82269700188DB7 /* Recommendation.swift in Sources */,
+				39B3742E1F82269700188DB7 /* RoadProject.swift in Sources */,
+				39B373F01F82269600188DB7 /* DbGeographyWellKnownValue.swift in Sources */,
+				39B374041F82269600188DB7 /* JourneyPlannerCycleHireDockingStationData.swift in Sources */,
+				39B374211F82269700188DB7 /* PlacePolygon.swift in Sources */,
+				39B373E71F82269600188DB7 /* Bay.swift in Sources */,
+				39B373D71F82268B00188DB7 /* OccupancyAPI.swift in Sources */,
+				39B374131F82269700188DB7 /* MatchedStop.swift in Sources */,
+				39B373E91F82269600188DB7 /* CarParkOccupancy.swift in Sources */,
+				39B374051F82269600188DB7 /* JourneyVector.swift in Sources */,
+				39B374121F82269700188DB7 /* MatchedRouteSections.swift in Sources */,
+				39B374071F82269600188DB7 /* KnownJourney.swift in Sources */,
+				39B373DF1F82268B00188DB7 /* Extensions.swift in Sources */,
+				39B3743A1F82269700188DB7 /* StationInterval.swift in Sources */,
+				39B373DA1F82268B00188DB7 /* SearchAPI.swift in Sources */,
+				39B374431F82269700188DB7 /* Ticket.swift in Sources */,
+				39B374091F82269700188DB7 /* Line.swift in Sources */,
+				39B3742C1F82269700188DB7 /* RoadDisruptionImpactArea.swift in Sources */,
+				39B374031F82269600188DB7 /* Journey.swift in Sources */,
+				39B373F71F82269600188DB7 /* FareDetails.swift in Sources */,
+				39B374191F82269700188DB7 /* Obstacle.swift in Sources */,
+				39B3743B1F82269700188DB7 /* StatusSeverity.swift in Sources */,
+				39B374441F82269700188DB7 /* TicketTime.swift in Sources */,
+				39B3741D1F82269700188DB7 /* PathAttribute.swift in Sources */,
+				39B373E51F82269600188DB7 /* AdditionalProperties.swift in Sources */,
+				39B3743C1F82269700188DB7 /* StopPoint.swift in Sources */,
+				39B374261F82269700188DB7 /* PredictionTiming.swift in Sources */,
+				39B373F31F82269600188DB7 /* DisruptedPoint.swift in Sources */,
+				39B373D01F82268B00188DB7 /* BikePointAPI.swift in Sources */,
+				39B373D31F82268B00188DB7 /* JourneyAPI.swift in Sources */,
+				39B3744C1F82269700188DB7 /* ValidityPeriod.swift in Sources */,
+				39B373E01F82268F00188DB7 /* AlamofireImplementations.swift in Sources */,
+				39B373F51F82269600188DB7 /* Fare.swift in Sources */,
+				39B374021F82269600188DB7 /* ItineraryResult.swift in Sources */,
+				39B373D81F82268B00188DB7 /* PlaceAPI.swift in Sources */,
+				39B3740B1F82269700188DB7 /* LineModeGroup.swift in Sources */,
+				39B3742F1F82269700188DB7 /* RouteOption.swift in Sources */,
+				39B373DD1F82268B00188DB7 /* VehicleAPI.swift in Sources */,
+				39B3741A1F82269700188DB7 /* OrderedRoute.swift in Sources */,
+				39B373E11F82268F00188DB7 /* APIHelper.swift in Sources */,
+				39B3744D1F82269700188DB7 /* Vehicle.swift in Sources */,
+				39B374171F82269700188DB7 /* NotificationSubscription.swift in Sources */,
+				39B3741F1F82269700188DB7 /* Place.swift in Sources */,
+				39B374361F82269700188DB7 /* SearchCriteria.swift in Sources */,
+				39B3744A1F82269700188DB7 /* TimetableRoute.swift in Sources */,
+				39B373D91F82268B00188DB7 /* RoadAPI.swift in Sources */,
+				39B374151F82269700188DB7 /* Mode.swift in Sources */,
+				39B3741B1F82269700188DB7 /* PassengerType.swift in Sources */,
+				39B373FE1F82269600188DB7 /* Identifier.swift in Sources */,
+				39B373EC1F82269600188DB7 /* CycleSuperhighway.swift in Sources */,
+				39B374251F82269700188DB7 /* Prediction.swift in Sources */,
+				39B373D61F82268B00188DB7 /* NotificationAPI.swift in Sources */,
+				39B374391F82269700188DB7 /* ServiceFrequency.swift in Sources */,
+				39B373CE1F82268B00188DB7 /* AccidentStatsAPI.swift in Sources */,
+				39B374311F82269700188DB7 /* RouteSearchResponse.swift in Sources */,
+				39B374081F82269700188DB7 /* Leg.swift in Sources */,
+				39B374321F82269700188DB7 /* RouteSection.swift in Sources */,
+				39B374281F82269700188DB7 /* RecommendationResponse.swift in Sources */,
+				39B374341F82269700188DB7 /* RouteSequence.swift in Sources */,
+				39B373CF1F82268B00188DB7 /* AirQualityAPI.swift in Sources */,
+				39B374111F82269700188DB7 /* MatchedRoute.swift in Sources */,
+				39B373E21F82269600188DB7 /* AccidentDetail.swift in Sources */,
+				39B374001F82269600188DB7 /* InstructionStep.swift in Sources */,
+				39B373EA1F82269600188DB7 /* Casualty.swift in Sources */,
+				39B374231F82269700188DB7 /* Point.swift in Sources */,
+				39B374161F82269700188DB7 /* NotificationEvent.swift in Sources */,
+				39B373D41F82268B00188DB7 /* LineAPI.swift in Sources */,
+				39B373F61F82269600188DB7 /* FareBounds.swift in Sources */,
+				39B374401F82269700188DB7 /* StopPointsResponse.swift in Sources */,
+				39B374331F82269700188DB7 /* RouteSectionNaptanEntrySequence.swift in Sources */,
+				39B3743D1F82269700188DB7 /* StopPointCategory.swift in Sources */,
+				39B374421F82269700188DB7 /* StreetSegment.swift in Sources */,
+				39B3744B1F82269700188DB7 /* TwentyFourHourClockTime.swift in Sources */,
+				39B373D11F82268B00188DB7 /* CabwiseAPI.swift in Sources */,
+				39B374221F82269700188DB7 /* PlannedWork.swift in Sources */,
+				39B373ED1F82269600188DB7 /* DateRange.swift in Sources */,
+				39B374291F82269700188DB7 /* Redirect.swift in Sources */,
+				39B374301F82269700188DB7 /* RouteSearchMatch.swift in Sources */,
+				39B373F81F82269600188DB7 /* FaresMode.swift in Sources */,
+				39B374011F82269600188DB7 /* Interval.swift in Sources */,
+				39B373D21F82268B00188DB7 /* CycleSuperhighwayAPI.swift in Sources */,
+				39B374411F82269700188DB7 /* Street.swift in Sources */,
+				39B3743F1F82269700188DB7 /* StopPointSequence.swift in Sources */,
+				39B374241F82269700188DB7 /* PostcodeInput.swift in Sources */,
+				39B373DC1F82268B00188DB7 /* TravelTimeAPI.swift in Sources */,
+				39B373D51F82268B00188DB7 /* ModeAPI.swift in Sources */,
+				39B373E81F82269600188DB7 /* CacheSettings.swift in Sources */,
+				39B374481F82269700188DB7 /* Timetable.swift in Sources */,
+				39B3740D1F82269700188DB7 /* LineServiceType.swift in Sources */,
+				39B3740A1F82269700188DB7 /* LineGroup.swift in Sources */,
+				39B373F91F82269600188DB7 /* FaresPeriod.swift in Sources */,
+				39B3741C1F82269700188DB7 /* Path.swift in Sources */,
+				39B374491F82269700188DB7 /* TimetableResponse.swift in Sources */,
+				39B373EF1F82269600188DB7 /* DbGeography.swift in Sources */,
+				39B373FB1F82269600188DB7 /* GeoCodeSearchMatch.swift in Sources */,
+				39B374451F82269700188DB7 /* TicketType.swift in Sources */,
+				39B374201F82269700188DB7 /* PlaceCategory.swift in Sources */,
+				39B373FA1F82269600188DB7 /* FaresSection.swift in Sources */,
+				39B373DE1F82268B00188DB7 /* APIs.swift in Sources */,
+				39B373DB1F82268B00188DB7 /* StopPointAPI.swift in Sources */,
+				39B3740E1F82269700188DB7 /* LineServiceTypeInfo.swift in Sources */,
+				39B374461F82269700188DB7 /* TimeAdjustment.swift in Sources */,
+				39B373F41F82269600188DB7 /* Disruption.swift in Sources */,
+				39B3740C1F82269700188DB7 /* LineRouteSection.swift in Sources */,
+				39B3742B1F82269700188DB7 /* RoadDisruption.swift in Sources */,
+				39B374471F82269700188DB7 /* TimeAdjustments.swift in Sources */,
+				39B373E61F82269600188DB7 /* ApiVersionInfo.swift in Sources */,
+				39B374141F82269700188DB7 /* Message.swift in Sources */,
+				39B3743E1F82269700188DB7 /* StopPointRouteSection.swift in Sources */,
+				39B3740F1F82269700188DB7 /* LineSpecificServiceType.swift in Sources */,
+				39B373F11F82269600188DB7 /* Disambiguation.swift in Sources */,
+				39B3742D1F82269700188DB7 /* RoadDisruptionLine.swift in Sources */,
+				39B373EE1F82269600188DB7 /* DateRangeNullable.swift in Sources */,
+				39B374061F82269600188DB7 /* JpElevation.swift in Sources */,
+				39B3744E1F82269A00188DB7 /* Models.swift in Sources */,
+				39B373FC1F82269600188DB7 /* GeoPoint.swift in Sources */,
+				39B373E41F82269600188DB7 /* ActiveServiceType.swift in Sources */,
+				39B374381F82269700188DB7 /* SearchResponse.swift in Sources */,
+				39B3742A1F82269700188DB7 /* RoadCorridor.swift in Sources */,
+				39B373F21F82269600188DB7 /* DisambiguationOption.swift in Sources */,
+				39B373FD1F82269600188DB7 /* GeoPointBBox.swift in Sources */,
+				39B374181F82269700188DB7 /* Object.swift in Sources */,
+				39B3741E1F82269700188DB7 /* Period.swift in Sources */,
+				39B374101F82269700188DB7 /* LineStatus.swift in Sources */,
+				39B374371F82269700188DB7 /* SearchMatch.swift in Sources */,
+				39B373E31F82269600188DB7 /* AccidentStatsOrderedSummary.swift in Sources */,
+				39B373FF1F82269600188DB7 /* Instruction.swift in Sources */,
+				39B374351F82269700188DB7 /* Schedule.swift in Sources */,
+				39B373EB1F82269600188DB7 /* Coordinate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5610AA601E218C9900E8270D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -674,6 +1004,80 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		39C874141F7AD71C005966F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = UY3B6JCV8C;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = TFLSwaggerClientTV/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vu.charles.TFLSwaggerClientTV;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		39C874151F7AD71C005966F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = UY3B6JCV8C;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = TFLSwaggerClientTV/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vu.charles.TFLSwaggerClientTV;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
 		5610AA6B1E218C9900E8270D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -683,7 +1087,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -691,7 +1097,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -736,7 +1146,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -744,7 +1156,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -827,6 +1243,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		39C874161F7AD71C005966F1 /* Build configuration list for PBXNativeTarget "TFLSwaggerClientTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C874141F7AD71C005966F1 /* Debug */,
+				39C874151F7AD71C005966F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5610AA5F1E218C9900E8270D /* Build configuration list for PBXProject "TFLSwaggerClient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

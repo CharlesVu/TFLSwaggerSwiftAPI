@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5610AA641E218C9900E8270D"
-               BuildableName = "TFLSwaggerClient.framework"
-               BlueprintName = "TFLSwaggerClient"
+               BlueprintIdentifier = "39C8740E1F7AD71C005966F1"
+               BuildableName = "TFLSwaggerClientTV.framework"
+               BlueprintName = "TFLSwaggerClientTV"
                ReferencedContainer = "container:TFLSwaggerClient.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,9 +47,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5610AA641E218C9900E8270D"
-            BuildableName = "TFLSwaggerClient.framework"
-            BlueprintName = "TFLSwaggerClient"
+            BlueprintIdentifier = "39C8740E1F7AD71C005966F1"
+            BuildableName = "TFLSwaggerClientTV.framework"
+            BlueprintName = "TFLSwaggerClientTV"
             ReferencedContainer = "container:TFLSwaggerClient.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,9 +65,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5610AA641E218C9900E8270D"
-            BuildableName = "TFLSwaggerClient.framework"
-            BlueprintName = "TFLSwaggerClient"
+            BlueprintIdentifier = "39C8740E1F7AD71C005966F1"
+            BuildableName = "TFLSwaggerClientTV.framework"
+            BlueprintName = "TFLSwaggerClientTV"
             ReferencedContainer = "container:TFLSwaggerClient.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
