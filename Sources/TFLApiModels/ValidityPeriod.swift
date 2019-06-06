@@ -25,6 +25,35 @@ public struct ValidityPeriod: Codable {
         self.isNow = isNow
     }
 
+    public init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        isNow = try container.decode(Bool.self, forKey: .isNow)
+
+        let dateFormatter = DateFormatter()
+        dateFormatter.locale = Locale(identifier: "en_US_POSIX")
+        dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZ"
+
+        let fromDateString = try container.decode(String.self, forKey: .fromDate)
+
+        if let date = dateFormatter.date(from: fromDateString) {
+            fromDate = date
+        } else {
+            throw DecodingError.dataCorruptedError(forKey: .fromDate,
+                                                   in: container,
+                                                   debugDescription: "Date string does not match format expected by formatter.")
+        }
+
+        let toDateString = try container.decode(String.self, forKey: .toDate)
+        if let date = dateFormatter.date(from: toDateString) {
+            fromDate = date
+        } else {
+            throw DecodingError.dataCorruptedError(forKey: .toDate,
+                                                   in: container,
+                                                   debugDescription: "Date string does not match format expected by formatter.")
+        }
+
+    }
+
 
 }
 

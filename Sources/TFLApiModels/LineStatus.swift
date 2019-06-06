@@ -42,6 +42,29 @@ public struct LineStatus: Codable {
         case disruption
     }
 
+    public init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        _id = try container.decode(Int.self, forKey: ._id)
+        lineId = try container.decode(String.self, forKey: .lineId)
+        statusSeverity = try container.decode(Int.self, forKey: .statusSeverity)
+        reason = try container.decode(String.self, forKey: .reason)
+        validityPeriods = try container.decode([ValidityPeriod].self, forKey: .reason)
+        disruption = try container.decode(Disruption.self, forKey: .reason)
+
+        let dateFormatter = DateFormatter()
+        dateFormatter.locale = Locale(identifier: "en_US_POSIX")
+        dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss"
+
+        let dateString = try container.decode(String.self, forKey: .modified)
+        let formatter = dateFormatter
+        if let date = formatter.date(from: dateString) {
+            modified = date
+        } else {
+            throw DecodingError.dataCorruptedError(forKey: .modified,
+                                                   in: container,
+                                                   debugDescription: "Date string does not match format expected by formatter.")
+        }
+    }
 
 }
 
