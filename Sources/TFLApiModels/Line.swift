@@ -7,8 +7,6 @@
 
 import Foundation
 
-
-
 public struct Line: Codable {
 
     public var _id: String?

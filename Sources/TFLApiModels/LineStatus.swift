@@ -16,7 +16,6 @@ public struct LineStatus: Codable {
     public var statusSeverity: Int?
     public var statusSeverityDescription: String?
     public var reason: String?
-    public var created: Date?
     public var modified: Date?
     public var validityPeriods: [ValidityPeriod]?
     public var disruption: Disruption?
@@ -27,7 +26,6 @@ public struct LineStatus: Codable {
         self.statusSeverity = statusSeverity
         self.statusSeverityDescription = statusSeverityDescription
         self.reason = reason
-        self.created = created
         self.modified = modified
         self.validityPeriods = validityPeriods
         self.disruption = disruption
@@ -39,7 +37,6 @@ public struct LineStatus: Codable {
         case statusSeverity
         case statusSeverityDescription
         case reason
-        case created
         case modified
         case validityPeriods
         case disruption
