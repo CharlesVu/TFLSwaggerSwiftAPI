@@ -45,24 +45,31 @@ public struct LineStatus: Codable {
     public init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         _id = try container.decode(Int.self, forKey: ._id)
-        lineId = try container.decode(String.self, forKey: .lineId)
+        if container.contains(.lineId) {
+            lineId = try container.decode(String.self, forKey: .lineId)
+        }
         statusSeverity = try container.decode(Int.self, forKey: .statusSeverity)
-        reason = try container.decode(String.self, forKey: .reason)
-        validityPeriods = try container.decode([ValidityPeriod].self, forKey: .reason)
-        disruption = try container.decode(Disruption.self, forKey: .reason)
+        if container.contains(.reason) {
+            reason = try container.decode(String.self, forKey: .reason)
+        }
+        validityPeriods = try container.decode([ValidityPeriod].self, forKey: .validityPeriods)
+        if container.contains(.disruption) {
+            disruption = try container.decode(Disruption.self, forKey: .disruption)
+        }
+        if container.contains(.modified) {
+            let dateFormatter = DateFormatter()
+            dateFormatter.locale = Locale(identifier: "en_US_POSIX")
+            dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss"
 
-        let dateFormatter = DateFormatter()
-        dateFormatter.locale = Locale(identifier: "en_US_POSIX")
-        dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss"
-
-        let dateString = try container.decode(String.self, forKey: .modified)
-        let formatter = dateFormatter
-        if let date = formatter.date(from: dateString) {
-            modified = date
-        } else {
-            throw DecodingError.dataCorruptedError(forKey: .modified,
-                                                   in: container,
-                                                   debugDescription: "Date string does not match format expected by formatter.")
+            let dateString = try container.decode(String.self, forKey: .modified)
+            let formatter = dateFormatter
+            if let date = formatter.date(from: dateString) {
+                modified = date
+            } else {
+                throw DecodingError.dataCorruptedError(forKey: .modified,
+                                                       in: container,
+                                                       debugDescription: "Date string does not match format expected by formatter.")
+            }
         }
     }
 
