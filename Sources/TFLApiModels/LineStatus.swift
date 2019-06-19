@@ -16,17 +16,15 @@ public struct LineStatus: Codable {
     public var statusSeverity: Int?
     public var statusSeverityDescription: String?
     public var reason: String?
-    public var modified: Date?
     public var validityPeriods: [ValidityPeriod]?
     public var disruption: Disruption?
 
-    public init(_id: Int?, lineId: String?, statusSeverity: Int?, statusSeverityDescription: String?, reason: String?, created: Date?, modified: Date?, validityPeriods: [ValidityPeriod]?, disruption: Disruption?) {
+    public init(_id: Int?, lineId: String?, statusSeverity: Int?, statusSeverityDescription: String?, reason: String?, validityPeriods: [ValidityPeriod]?, disruption: Disruption?) {
         self._id = _id
         self.lineId = lineId
         self.statusSeverity = statusSeverity
         self.statusSeverityDescription = statusSeverityDescription
         self.reason = reason
-        self.modified = modified
         self.validityPeriods = validityPeriods
         self.disruption = disruption
     }
@@ -37,7 +35,6 @@ public struct LineStatus: Codable {
         case statusSeverity
         case statusSeverityDescription
         case reason
-        case modified
         case validityPeriods
         case disruption
     }
@@ -55,21 +52,6 @@ public struct LineStatus: Codable {
         validityPeriods = try container.decode([ValidityPeriod].self, forKey: .validityPeriods)
         if container.contains(.disruption) {
             disruption = try container.decode(Disruption.self, forKey: .disruption)
-        }
-        if container.contains(.modified) {
-            let dateFormatter = DateFormatter()
-            dateFormatter.locale = Locale(identifier: "en_US_POSIX")
-            dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss"
-
-            let dateString = try container.decode(String.self, forKey: .modified)
-            let formatter = dateFormatter
-            if let date = formatter.date(from: dateString) {
-                modified = date
-            } else {
-                throw DecodingError.dataCorruptedError(forKey: .modified,
-                                                       in: container,
-                                                       debugDescription: "Date string does not match format expected by formatter.")
-            }
         }
     }
 
