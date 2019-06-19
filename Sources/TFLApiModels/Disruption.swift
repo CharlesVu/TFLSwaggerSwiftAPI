@@ -65,7 +65,7 @@ public struct Disruption: Codable {
         case _description = "description"
         case summary
         case additionalInfo
-        case created
+//        case created
         case lastUpdate
         case affectedRoutes
         case affectedStops
